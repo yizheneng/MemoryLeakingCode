@@ -2,6 +2,6 @@ cd others
 qtdeploy.exe build
 cd ../src/
 qtdeploy.exe build
-move src.exe ../MonitoringCenter.exe
 cd ../
+copy ./src/deploy/windows/src.exe ./MonitoringCenter.exe
 MonitoringCenter.exe
