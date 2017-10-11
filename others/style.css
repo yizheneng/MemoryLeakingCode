@@ -1,0 +1,7 @@
+QWidget#MainWindow {
+	background-color: green;
+}
+
+QWidget#Title {
+	background-color: yellow;
+}
