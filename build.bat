@@ -1,7 +1,4 @@
-cd others
+set GOPATH=%GOPATH%;%cd%
+set GOPATH
+cd src/mainwindows
 qtdeploy.exe build
-cd ../src/
-qtdeploy.exe build
-cd ../
-copy ./src/deploy/windows/src.exe ./MonitoringCenter.exe
-MonitoringCenter.exe
