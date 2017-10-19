@@ -1,7 +1,9 @@
-QWidget#MainWindow {
+QWidget#mainWidget {
 	background-color: green;
+	padding:0px;
 }
 
 QWidget#Title {
 	background-color: yellow;
+	padding:0px;
 }
